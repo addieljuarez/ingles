@@ -1,0 +1,38 @@
+'.container' : {
+	backgroundColor : 'white',
+}
+'#viewMain' : {
+	layout : 'vertical',
+}
+'#labelEnglish':{
+	top : 50,
+	color : 'black',
+	left: 20,
+	right : 20,
+	height : Ti.UI.SIZE,
+	text : 'Selecciona ingles para darte palabras en español y que tu las traduzcas a ingles.',
+}
+'#buttonEnglish' : {
+	top : 10,
+	width : 250,
+	height : 45,
+	borderColor : 'black',
+	borderRadius : 10,
+	title : 'Ingles',
+}
+'#labelEspanish':{
+	top : 50,
+	color : 'black',
+	left: 20,
+	right : 20,
+	height : Ti.UI.SIZE,
+	text : 'Selecciona español para darte palabras en ingles y que tu las traduzcas a español.',
+}
+'#buttonEspanish' : {
+	top : 10,
+	width : 250,
+	height : 45,
+	borderColor : 'black',
+	borderRadius : 10,
+	title : 'Español',
+}

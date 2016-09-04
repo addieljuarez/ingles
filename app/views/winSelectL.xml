@@ -1,0 +1,16 @@
+<Alloy>
+	<Window 
+		class='container'>
+		<ScrollView 
+			id='viewMain'>
+			<Label
+				id='labelEnglish'></Label>
+			<Button 
+				id='buttonEnglish'></Button>
+			<Label
+				id='labelEspanish'></Label>
+			<Button 
+				id='buttonEspanish'></Button>
+		</ScrollView>
+	</Window>
+</Alloy>

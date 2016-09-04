@@ -34,8 +34,8 @@ ACS.Users.login({
 	password:password,
 }, function(result){
 	if (env==='development') {
-		Ti.API.info('ACS Login Results for environment `'+env+'`:');
-		Ti.API.info(result);
+		// Ti.API.info('ACS Login Results for environment `'+env+'`:');
+		// Ti.API.info(result);
 	}
 	if (result && result.success && result.users && result.users.length){
 		Ti.App.fireEvent('login.success',result.users[0],env);
@@ -45,4 +45,11 @@ ACS.Users.login({
 });
 
 })();
+
+
+if(OS_IOS){
+	Alloy.Globals.navigation = null;
+}
+
+
 

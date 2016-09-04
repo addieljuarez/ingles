@@ -1,3 +1,12 @@
 <Alloy>
-	<Window class='container'></Window>
+	<NavigationWindow 
+		class='container'>
+		<Window 
+			id='winMain'>
+			<Label 
+				id='lableDescription'></Label>
+			<TableView 
+				id='tableMain'></TableView>
+		</Window>
+	</NavigationWindow>
 </Alloy>

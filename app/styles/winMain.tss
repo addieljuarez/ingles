@@ -1,3 +1,20 @@
 '.container':{
-	backgroundColor : 'red',
+	backgroundColor : 'white',
+}
+'#winMain':{
+	layout : 'vertical',
+	backgroundColor : 'white',
+	navBarHidden : true,
+}
+'#lableDescription':{
+	top : 50,
+	textAlign : Ti.UI.TEXT_ALIGNMENT_CENTER,
+	text : 'Selecciona el ejercicio a realizar',
+}
+'#tableMain':{
+	top :10,
+	color : 'black',
+	font : {
+		fontSize : 19,
+	}
 }
